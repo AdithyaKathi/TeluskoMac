@@ -2,6 +2,7 @@
 import java.util.*;
 public class Pascal
 {
+    // It Computes Pascal Triangle In Memoized Approach	
     public static List<List<Integer>> memoizedPascal(int num){
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> row , pre = null;
